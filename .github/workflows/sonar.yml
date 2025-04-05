@@ -4,8 +4,7 @@ on:
   push:
     branches:
       - main
-  # schedule:
-  #     - cron: '34 0 * * 6'
+
 
 jobs:
   build:
@@ -25,9 +24,3 @@ jobs:
       #   timeout-minutes: 5
       #   env:
       #     SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-
-
-
-
-
-
